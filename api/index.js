@@ -1,5 +1,5 @@
-const { default: axios } = require("axios");
 const app = require("express")();
+const axios = require("axios").default;
 
 app.get("/api", async (req, res) => {
     try {
